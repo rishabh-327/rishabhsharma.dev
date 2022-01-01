@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+}
+body {
+	font-family: 1rem;
+	font-family: Poppins, sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgb(238, 244, 252);
+}
+*::selection {
+	background-color: rgb(255, 247, 175);
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 0.5rem;
+}
+.grid-item {
+	grid-column: 4/10;
+}
+.content {
+	text-align: center;
+	padding: 1rem;
+}
+.content h4 {
+	margin-bottom: 0.75rem;
+}
