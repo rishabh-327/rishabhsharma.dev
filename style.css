@@ -30,6 +30,9 @@ body {
 	padding: 2em 0;
 	text-align: center;
 }
+.content img {
+	max-width: 180px;
+}
 .content h4 {
 	margin-bottom: 0.75rem;
 }
